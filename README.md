@@ -152,7 +152,7 @@ Candidates should have 2+ years of experience and strong problem-solving skills.
 
 ## 📸 Demo
 
-(Add screenshots here)
+![alt text](image.png)
 
 ---
 
