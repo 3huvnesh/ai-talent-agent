@@ -1,181 +1,70 @@
-# 🤖 AI Talent Agent
+# Getting Started with Create React App
 
-An AI-powered recruitment assistant that automates candidate discovery, matching, and engagement using intelligent scoring and conversational interaction.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 🚀 Features
+In the project directory, you can run:
 
-* 📄 **Job Description Parsing**
-  Extracts key skills, role, and experience from raw JD text.
+### `npm start`
 
-* 🎯 **Candidate Matching Engine**
-  Scores candidates based on:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-  * Skill Match
-  * Experience Match
-  * Provides explainable results
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-* 💬 **AI Candidate Engagement**
-  Simulates real-time chat with candidates (WhatsApp-style UI)
+### `npm test`
 
-* 📊 **Ranking Dashboard**
-  Visual ranking of candidates based on:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  * Match Score
-  * Interest Score
-  * Final Score
+### `npm run build`
 
-* 🌙 **Premium Dark UI**
-  Clean, modern interface with animations
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🏗️ Tech Stack
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Backend
+### `npm run eject`
 
-* FastAPI
-* Python
-* Transformers (HuggingFace)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Frontend
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* React.js
-* Framer Motion (animations)
-* Recharts (charts)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 📂 Project Structure
+## Learn More
 
-```
-ai-talent-agent/
-│
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── jd_parser.py
-│   │   ├── matcher.py
-│   │   ├── engagement.py
-│   │
-│   ├── data/
-│   │   └── candidates.json
-│   │
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── api.js
-│   │   └── components/
-│   │       ├── CandidateCard.js
-│   │       ├── ChatBox.js
-│   │       └── Dashboard.js
-│
-└── README.md
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## ⚙️ Setup & Run
+### Code Splitting
 
-### 🔹 1. Clone Repository
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```
-git clone <your-repo-link>
-cd ai-talent-agent
-```
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### 🔹 2. Backend Setup
+### Making a Progressive Web App
 
-```
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-👉 Runs at: http://127.0.0.1:8000
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### 🔹 3. Frontend Setup
+### Deployment
 
-```
-cd frontend
-npm install
-npm start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-👉 Runs at: http://localhost:3000
+### `npm run build` fails to minify
 
----
-
-## 🧪 Sample Job Description
-
-```
-We are hiring a Software Engineer with experience in Java, SQL, Spring Boot, and React. 
-Candidates should have 2+ years of experience and strong problem-solving skills.
-```
-
----
-
-## 🎯 How It Works
-
-1. Paste Job Description
-2. Click **Analyze**
-3. View ranked candidates
-4. Start chat with candidates
-5. Evaluate interest level
-
----
-
-## 🏆 Scoring Logic
-
-* **Match Score** → Skill + Experience match
-* **Interest Score** → Simulated AI response
-* **Final Score** → Weighted combination
-
----
-
-## 🚀 Future Improvements
-
-* Real resume parsing (PDF upload)
-* Live LinkedIn/GitHub integration
-* Real LLM integration (OpenAI / APIs)
-* Authentication system
-* Recruiter dashboard
-
----
-
-## 📸 Demo
-
-(Add screenshots here)
-
----
-
-## 🤝 Contribution
-
-Feel free to fork and improve!
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-## 💡 Hackathon Note
-
-This project demonstrates an end-to-end AI recruitment pipeline:
-
-* Automated matching
-* Conversational engagement
-* Decision-ready ranking
-
----
-
-🔥 Built to simulate real-world hiring automation workflows.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
