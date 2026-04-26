@@ -162,20 +162,6 @@ Feel free to fork and improve!
 
 ---
 
-## 📜 License
 
-MIT License
-
----
-
-## 💡 Hackathon Note
-
-This project demonstrates an end-to-end AI recruitment pipeline:
-
-* Automated matching
-* Conversational engagement
-* Decision-ready ranking
-
----
 
 🔥 Built to simulate real-world hiring automation workflows.
