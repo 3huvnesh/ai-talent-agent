@@ -1,0 +1,6 @@
+[
+  {"name": "Rahul Sharma", "skills": ["java", "sql"], "experience": 2},
+  {"name": "Anjali Verma", "skills": ["python", "sql"], "experience": 3},
+  {"name": "Amit Singh", "skills": ["java", "spring"], "experience": 4},
+  {"name": "Priya Mehta", "skills": ["react"], "experience": 2}
+]
