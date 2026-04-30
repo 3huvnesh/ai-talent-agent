@@ -83,7 +83,7 @@ ai-talent-agent/
 ### 🔹 1. Clone Repository
 
 ```
-git clone <your-repo-link>
+git clone <https://github.com/3huvnesh/ai-talent-agent.git>
 cd ai-talent-agent
 ```
 
